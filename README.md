@@ -5,7 +5,7 @@
 **Authors**
 
 - **Clemens Berger** — Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
-- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
+- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0001-5318-6871)
 
 **Preprint:** C. Berger, T. G. Boehm, *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* (2026). DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
 
