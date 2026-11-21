@@ -5,7 +5,7 @@
 **Authors**
 
 - **Clemens Berger** — Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
-- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0001-5318-6871)
+- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0001-5318](https://orcid.org/0000-0001-5318-6871)
 
 **Preprint:** C. Berger, T. G. Boehm, *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* (2026). DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
 
@@ -46,10 +46,6 @@ For a given text, the Python implementation computes:
 Preprocessing reduces terms to their lemmas and removes punctuation, articles, prepositions, pronouns and auxiliary verbs. Temporal, correlative and causal conjunctions are kept. Semantic fields are generated with fastText embeddings and DBSCAN clustering, which yields the smallest fields that make the flow graph connected.
 
 Dependencies: `networkx`, `matplotlib`, `sympy`, `gensim`, `scikit-learn`.
-
-## Example
-
-Applied to a passage from Richard Feynman's *QED* (1985), TOPTEXT divides the text into eight themes, among them *light*, *white light*, *red / blue*, *quantum electrodynamics* and *particle*. These match the way human readers would summarise the passage. The result comes from the text alone, without semantic fields or external world knowledge. A second example, a passage from Shakespeare's *King Lear* analysed with a few hand-specified semantic fields, is discussed in the preprint.
 
 ## Fields of application
 
