@@ -28,12 +28,12 @@ authors:
     family-names: Boehm
     affiliation: "Stuttgart Research Centre for Text Studies"
     email: philosophie@timonboehm.ch
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
-repository-code: "https://github.com/ORGANISATION/toptext-model"   # TODO: GitHub organisation name
-url: "https://github.com/ORGANISATION"                              # TODO: project page / organisation
-license: "LicenseRef-All-Rights-Reserved"                           # TODO: confirm licence (see note)
+    orcid: "https://orcid.org/0000-0001-5318-6871"  
+repository-code: "https://github.com/toptext-analysis/toptext-model"  
+url: "https://github.com/toptext-analysis"                             
+license: "LicenseRef-All-Rights-Reserved"                           
 version: "0.1.0"
-date-released: "2026-11-22"                                          # TODO: date of first release
+date-released: "2026-11-22"                                         
 keywords:
   - topological text analysis
   - flow graphs
