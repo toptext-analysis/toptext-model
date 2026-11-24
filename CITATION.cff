@@ -23,17 +23,17 @@ authors:
     family-names: Berger
     affiliation: "Laboratoire J.A. Dieudonné, Université Côte d'Azur"
     email: clemens.berger@univ-cotedazur.fr
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+    orcid: "https://orcid.org/0000-0002-3627-0964"
   - given-names: Timon Georg
     family-names: Boehm
     affiliation: "Stuttgart Research Centre for Text Studies"
     email: philosophie@timonboehm.ch
-    orcid: "https://orcid.org/0000-0001-5318-6871"  
-repository-code: "https://github.com/toptext-analysis/toptext-model"  
-url: "https://github.com/toptext-analysis"                             
-license: "LicenseRef-All-Rights-Reserved"                           
+    orcid: "https://orcid.org/0000-0001-5318-6871"
+repository-code: "https://github.com/toptext-analysis/toptext-model"
+url: "https://github.com/toptext-analysis"
+license: "LicenseRef-All-Rights-Reserved"
 version: "0.1.0"
-date-released: "2026-11-22"                                         
+date-released: "2026-11-22"
 keywords:
   - topological text analysis
   - flow graphs
@@ -44,29 +44,36 @@ keywords:
   - computational linguistics
   - text linguistics
   - digital humanities
-# identifiers:                                   # TODO: add once available
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
-#     description: Zenodo concept DOI (all versions)
-#   - type: url
-#     value: "https://arxiv.org/abs/XXXX.XXXXX"
-#     description: arXiv preprint
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24478598"
+    description: "Zenodo DOI of the preprint (version v1)"
+  # - type: url                                  # TODO: add once available
+  #   value: "https://arxiv.org/abs/XXXX.XXXXX"
+  #   description: arXiv preprint
 
 preferred-citation:
   type: article
-  title: "TOPTEXT: Topological Text Analysis via Embedded Flow Graphs"
+  title: "TOPTEXT. Topological Text Analysis via Embedded Flow Graphs"
   authors:
     - given-names: Clemens
       family-names: Berger
       affiliation: "Laboratoire J.A. Dieudonné, Université Côte d'Azur"
+      orcid: "https://orcid.org/0000-0002-3627-0964"
     - given-names: Timon Georg
       family-names: Boehm
       affiliation: "Stuttgart Research Centre for Text Studies"
+      orcid: "https://orcid.org/0000-0001-5318-6871"
   year: 2026
+  month: 11
+  date-published: "2026-11-23"
   status: preprint
-  # doi: "10.5281/zenodo.XXXXXXX"                # TODO: Zenodo DOI of the preprint
-  # url: "https://arxiv.org/abs/XXXX.XXXXX"      # TODO: arXiv link
-  # repository: "arXiv"
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.24478598"
+  url: "https://doi.org/10.5281/zenodo.24478598"
+  license: CC-BY-4.0
+  # TODO: once on arXiv, add the arXiv link under "identifiers" above
 
 references:
   - type: article
