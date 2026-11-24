@@ -1,15 +1,15 @@
 # TOPTEXT — Topological Text Analysis via Embedded Flow Graphs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24478598.svg)](https://doi.org/10.5281/zenodo.24478598)
+
 **TOPTEXT** is a model and software for topological text analysis. A text is represented from the outset as a **two-dimensional object**: sentences form the horizontal structure, lexical recurrences and semantic fields form the vertical structure. The resulting *flow graph* embeds into an oriented surface, and its topology is used to detect the themes of a text — transparently, without training data and without any choice of window size or other tuning parameter.
 
 **Authors**
 
-- **Clemens Berger** — Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice · ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
-- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0001-5318](https://orcid.org/0000-0001-5318-6871)
+- **Clemens Berger** — Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice · ORCID: [0000-0002-3627-0964](https://orcid.org/0000-0002-3627-0964)
+- **Timon Georg Boehm** — Stuttgart Research Centre for Text Studies · ORCID: [0000-0001-5318-6871](https://orcid.org/0000-0001-5318-6871)
 
-**Preprint:** C. Berger, T. G. Boehm, *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* (2026). DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
-
-**Software record:** DOI: [10.5281/zenodo.YYYYYYY](https://doi.org/10.5281/zenodo.YYYYYYY)
+**Preprint:** C. Berger, T. G. Boehm, *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs*, Zenodo, 2026. DOI: [10.5281/zenodo.24478598](https://doi.org/10.5281/zenodo.24478598) (licensed under CC BY 4.0)
 
 ---
 
@@ -57,7 +57,7 @@ TOPTEXT is designed for texts in which form matters for meaning:
 
 ## Access to the code
 
-The source code is kept in a **private repository** and is currently not public. Researchers interested in using or evaluating TOPTEXT are welcome to contact the authors. Versioned snapshots of the code are archived on Zenodo with restricted access (see the software DOI above). Access can be requested there.
+The source code is kept in a **private repository** and is currently not public. Researchers interested in using or evaluating TOPTEXT are welcome to contact the authors. Versioned snapshots of the code will be archived on Zenodo with restricted access; access can then be requested there.
 
 ## History
 
@@ -69,22 +69,28 @@ A first prototype of the model was presented in:
 
 If you refer to TOPTEXT, please cite the preprint:
 
+> Berger, C., & Boehm, T. G. (2026). *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* (Version v1) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24478598
+
 ```bibtex
 @misc{berger_boehm_toptext_2026,
   author    = {Berger, Clemens and Boehm, Timon Georg},
   title     = {{TOPTEXT}. Topological Text Analysis via Embedded Flow Graphs},
   year      = {2026},
+  month     = nov,
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  note      = {Preprint, version v1},
+  doi       = {10.5281/zenodo.24478598},
+  url       = {https://doi.org/10.5281/zenodo.24478598}
 }
 ```
+
+The citation metadata is also available in [`CITATION.cff`](CITATION.cff); GitHub shows it under **"Cite this repository"**.
 
 ## Copyright
 
 © 2026 Clemens Berger and Timon Georg Boehm. All rights reserved.
 
-The TOPTEXT model, its documentation and its source code are the work of the authors. No licence to use, copy, modify or distribute the source code is granted unless the authors agree in writing.
+The TOPTEXT model, its documentation and its source code are the work of the authors. No licence to use, copy, modify or distribute the source code is granted unless the authors agree in writing. The preprint on Zenodo is published separately under CC BY 4.0.
 
 ## Contact
 
